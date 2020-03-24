@@ -12,7 +12,7 @@ Pod::Spec.new do |spec|
   spec.author             = { "Miss_xiaoYang" => "email@address.com" }
   spec.platform     = :ios, "9.0"
   spec.source       = { :git => "https://github.com/MissXiaoYang/PYYPhotoBrowser.git", :tag => spec.version }
-  spec.source_files  = "PYYPhotoBrowser", "photoBrowser/photoBrowser/Framework/*.{h,m}"
+  spec.source_files  = "PYYPhotoBrowser", "photoBrowser/photoBrowser/Framework/*.{h,m}","photoBrowser/photoBrowser/Framework/SDWebImage/SDWebImage/Core/*.{h,m}","photoBrowser/photoBrowser/Framework/SDWebImage/SDWebImage/Private/*.{h,m}"
   spec.requires_arc = true
 
 
